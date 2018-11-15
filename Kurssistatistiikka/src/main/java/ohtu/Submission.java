@@ -8,11 +8,13 @@ public class Submission {
     private List<Integer>exercises;
     private String course;
 
+
     public void setWeek(int week, int hours, List exercises, String course) {
         this.week = week;
         this.hours = hours;
         this.exercises = exercises;
         this.course= course;
+        
     }
 
     public int getWeek() {
@@ -37,6 +39,7 @@ public class Submission {
     
     @Override
     public String toString() {
+
         String harjoitukset="";
         for (int i=0; i<exercises.size(); i++) {
             if(i == exercises.size()-1) {
@@ -46,7 +49,7 @@ public class Submission {
             }           
         }
 
-        return course + ", viikko " +week + " tehtyjä tehtäviä yhteensä " + exercises.size() + 
+        return " viikko " + week + ":\n tehtyjä tehtäviä " + exercises.size() + "/" + 
                 " aikaa kului " + this.hours + " tehdyt tehtävät: " + harjoitukset;
     }
     

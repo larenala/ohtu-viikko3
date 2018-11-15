@@ -25,13 +25,23 @@ public class Main {
         Gson mapper = new Gson();
         Submission[] subs = mapper.fromJson(bodyText, Submission[].class);
         String [] palat= kurssiText.split(",");
-        String str = mapper.fromJson("fullname", String.class);
-        System.out.println(str);
+        Course[] courses = mapper.fromJson(kurssiText, Course[].class);
+        System.out.println(courses[1].getFullname());
+
         int tehtavia =0;
         int tunteja=0;
         System.out.println("opiskelijanumero " + studentNr);
         System.out.println();
+        
         for (Submission submission : subs) {
+            System.out.println();
+            for(int i=0; i<courses.length; i++) {
+                if(submission.getCourse() != null && submission.getCourse().equals(courses[i].getName())) {
+                    System.out.println(courses[i].getFullname());
+                    
+                }
+            }
+            System.out.println();
             System.out.println(submission);
             tehtavia += submission.getTehtavaMaara();
             tunteja += submission.getHours();
