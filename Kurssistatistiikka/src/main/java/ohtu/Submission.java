@@ -49,8 +49,7 @@ public class Submission {
             }           
         }
 
-        return " viikko " + week + ":\n tehtyjä tehtäviä " + exercises.size() + "/" + 
-                " aikaa kului " + this.hours + " tehdyt tehtävät: " + harjoitukset;
+        return " aikaa kului " + this.hours + " tehdyt tehtävät: " + harjoitukset;
     }
     
 }
