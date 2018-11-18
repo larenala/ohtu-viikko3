@@ -21,6 +21,10 @@ public class Stepdefs {
     public void command_login_selected() throws Throwable {
         inputLines.add("login");
     }
+    
+    @Given("^command new user is selected$")
+    public void command_new_user_is_selected() throws Throwable {
+    }
 
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
     public void a_username_and_password_are_entered(String username, String password) throws Throwable {
@@ -41,42 +45,11 @@ public class Stepdefs {
        app.run();
     }
     
-    @Given("^command new user is selected$")
-    public void command_new_user_is_selected() throws Throwable {
-         inputLines.add("login");
-    }
-
-    @When("^Username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
-    public void username_and_password_are_entered(String arg1, String arg2) throws Throwable {
-        inputLines.add(arg1);
-        inputLines.add(arg2);
-       
-        io = new StubIO(inputLines); 
-        app = new App(io, auth);
-        app.run();
-    }
-    
-    @Given("^command new is selected$") 
-    public void command_new_selected() throws Throwable {
-        inputLines.add("new");
-    }
-    
-    @When("^Username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
-    public void tooShortUsername_and_password_are_entered(String arg1, String arg2) throws Throwable {
-        inputLines.add(arg1);
-        inputLines.add(arg2);
-       
-        io = new StubIO(inputLines); 
-        app = new App(io, auth);
-        app.run();
-    }
-    
-
-       @Then("^system will respond with \"([^\"]*)\"$")
+    @Then("^system will respond with \"([^\"]*)\"$")
     public void system_will_respond_with(String expectedOutput) throws Throwable {
         assertTrue(io.getPrints().contains(expectedOutput));
     }
     
- 
+
 
 }

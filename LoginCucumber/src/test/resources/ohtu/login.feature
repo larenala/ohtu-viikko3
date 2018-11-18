@@ -8,7 +8,7 @@ Feature: User can log in with valid username/password-combination
 
 Scenario: user can not login with incorrect password
     Given command login is selected
-    When  username "pekka" and password "mauri" are entered
+    When  username "pekka" and password "mimmi" are entered
     Then  system will respond with "wrong username or password"
 
 Scenario: nonexistent user can not login to 
