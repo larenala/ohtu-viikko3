@@ -58,7 +58,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        //ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
         UserDao dao = new InMemoryUserDao();
         IO io = new ConsoleIO();
         AuthenticationService auth = new AuthenticationService(dao);
