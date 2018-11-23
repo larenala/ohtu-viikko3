@@ -1,2 +1,1 @@
-# ohtu-viikko3
-ja viikko 4
+# ohtu-viikko3 ja 4
