@@ -1,0 +1,8 @@
+Artikkelissa käsitellään ns. litteän tuote-backlogin ongelmia. Litteyden käsitettä selitetään vertaamalla asiakkaan kanssa käytyjen keskutelujen pohjalta luotua
+mielikuvaa tuotteesta puuhun, jonka rungon muodostavat projektin päämäärät, oksat ovat käyttäjiä ja lehdet user storyja. Litteän backlogin kohdalla projektin alussa 
+kaikki lehdet irrotetaan puusta, minkä vuoksi käsitys kokonaiskuvasta häviää. Ongelman ratkaisuksi artikkelissa ehdotetaan story mappia, eli käsitekarttamaista tapaa
+asettaa user storyt järjestykseen niin että “isot” storyt tulevat ennen pieniä. Esim. sähköpostin hallinta voi sisältää pienempiä tarinoita kuten meilin lukeminen. 
+Ns. epic-storyt usein pilkotaan backlogissa pienempiin osiin, vaikka ne juuri tarjoaisivat tarvittavan kontekstin. Projektin “selkärankaan” liittyvät tärkeimmät 
+tehtävät ovat ne, jotka täytyy toteuttaa  minimum viable prodcutin luomiseksi ja vasta tästä eteenpäin voidaan priorisoida. Priorisoituja storyja toteutetaan 
+vasemmalta oikealle vähitellen featureja laajentaen.  
+
