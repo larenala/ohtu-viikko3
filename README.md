@@ -1,2 +1,2 @@
-# ohtu-viikko3, 4 ja 5
-muutos master-haaraan
+# Ohjelmistotuotanto - viikot 3,4,5,6,7
+
