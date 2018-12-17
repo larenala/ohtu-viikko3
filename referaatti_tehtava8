@@ -1,0 +1,11 @@
+Referaatti kandityöstä Ohjelmistotuotannon menetelmien kehittyminen 1950-luvulta nykypäivään
+
+Työn alussa määritellään ohjelmistotuotantoon liittyviä käsitteitä. Todetaan, että ohjelmistotuotannon vertaamista insinöörityöhön on pidetty kyseenalaisena.
+Tietokoneiden alkuaikoina tietokoneet olivat valtavan suuria ja tehottomia. Tietokoneohjelmointia ei myöskään erityisemmin arvostettu. Vähitellen alkoi muodostua
+käsitys ohjelmistotuotannon ongelmista ja alettiin kehittää järjestelmällisempiä menetelmiä. Tietokoneiden kasvava tehokkuus alkoi asettaa haasteita ja usein projektit
+epäonnistuivat. Ajanjaksosta puhuttiin ohjelmistokriisinä. Löydettiin vesiputousmalli, joka pohjasi insinööritieteissä hyväksi havaittuihin menetelmiin. Kuitenkin 
+vähitellen alkoi tulla selväksi, ettei insinöörintyöhön hyvin sopiva malli ollutkaan yhtä toimiva ohjelmistotuotannossa. Ohjelmistojen ongelmat ilmenevät usen vasta 
+ohjelmoidessa, jolloin suunnittelun rooli on erilainen kuin esim. siltaa rakentaessa. Vesiputousmallin ongelmien ratkaisemiseksi kehitettiin iteratiiviset  menetelmät,
+ joita oli ollut olemassa aiemminkin, mutta jotka tulivat laajempaan suosioon 90-luvulla. Edeltävässä spiraalimallissa kehittäminen ohjautuu riskien ja niiden hallinnan
+mukaan. Rational Unified Process eli RUP on toinen iteratiivinen menetelmä, jossa käytetään laajasti UML-diagrammeja ja käyttötapauksia. 2000-luvun vaihteessa kehitettiin
+mm. Scrum ja XP. Tällä hetkellä ketterät menetelmät ovat suosituin ohjelmistotuotantomenetelmä, mutta nekään eivät ole täydellisiä.   
